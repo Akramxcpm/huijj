@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="har.makawet.jvm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bck"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/chati_icon512"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <!--<activity android:name=".PurchaseActivity"></activity>-->
+        <activity android:name="har.makawet.jvm.Home.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="har.makawet.jvm.Login.RegisterActivity"
+            android:parentActivityName="har.makawet.jvm.Login.LoginActivity" />
+
+
+        <activity
+            android:name="har.makawet.jvm.Login.RegisterContinueActivity"
+             />
+
+        <activity
+            android:name="har.makawet.jvm.Home.AccountFrag"
+            android:parentActivityName="har.makawet.jvm.Home.MainActivity" />
+        <activity android:name="har.makawet.jvm.Login.LoginActivity" />
+        <activity android:name="har.makawet.jvm.Login.PolicyActivity"
+            android:parentActivityName="har.makawet.jvm.Login.RegisterActivity"
+            />
+        <activity
+            android:name="har.makawet.jvm.Chat.ChatRoomActivity"
+            android:parentActivityName="har.makawet.jvm.Home.MainActivity" />
+        <activity
+            android:name="har.makawet.jvm.Chat.ChatUserActivity"
+            android:parentActivityName="har.makawet.jvm.Home.MainActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <activity android:name="har.makawet.jvm.Chat.VideoChatViewActivity" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="false"/>
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled"
+            android:value="false"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+
+
+    </application>
+
+</manifest>

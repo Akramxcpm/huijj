@@ -1,0 +1,205 @@
+<resources>
+
+
+    <!--   test ads banner : ca-app-pub-3940256099942544/6300978111-->
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <string name="agora_app_id" translatable="false">7e06df1ae241490890fcc9370dec7228</string>
+    <!-- Obtain a temp Access Token at https://dashboard.agora.io -->
+    <!-- You will need to deploy your own token server for production release -->
+    <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
+    <string name="agora_access_token" translatable="false">#c8e72c422669486199f8d2f853e719cd#</string>
+
+
+    <!--  ADS ADMOB -->
+    <string name="banner_ads" translatable="false">ca-app-pub-9406222929841570/4618954595</string>
+    <string name="NativeAdmobID" translatable="false">ca-app-pub-9406222929841570/4812016975</string>
+    <string name="InterstitialAdAdmobID" translatable="false">ca-app-pub-9406222929841570/7629752003</string>
+
+    <!--  ADS FACEBOOK -->
+    <string name="NativeAds_Facebook" translatable="false">710441437191558_712160870352948</string>
+    <string name="Interstitial_FacebbokAds" translatable="false">710441437191558_712161060352929</string>
+    <string name="Banner_ads_facebook" translatable="false">710441437191558_712161403686228</string>
+
+    <string name="app_name" translatable="false">CHATI</string>
+    <string name="facebook_app_id" translatable="false">710441437191558</string>
+
+
+    <string name="facebook_client_token">95dd6082f1f0e0c9feafe197d877ae87</string>
+
+    <!--  firebase don't translate those elements below-->
+    <string name="fb_username">username</string>
+    <string name="fb_email">email</string>
+    <string name="fb_pass">password</string>
+    <string name="fb_image">image</string>
+    <string name="fb_thumb_image">thumb_image</string>
+    <string name="fb_country">country</string>
+    <string name="fb_sex">sex</string>
+    <string name="fb_age">age</string>
+    <string name="fb_relationship">relationship</string>
+    <!-- end firebase -->
+
+    <string-array name="relationShip">
+        <item>Single</item>
+        <item>In a relationship</item>
+        <item>Engaged</item>
+        <item>In an open relationship</item>
+        <item>It\'s complicated</item>
+        <item>In a civil union</item>
+        <item>Separated</item>
+        <item>Married</item>
+        <item>In a domestic partnership</item>
+        <item>Widowed</item>
+        <item>Divorced</item>
+        <item>None</item>
+    </string-array>
+
+    <string name="sp_single">Single</string>
+    <string name="sp_relatio">In a relationship</string>
+    <string name="sp_engeg">Engaged</string>
+    <string name="sp_inopen">In an open relationship</string>
+    <string name="sp_itcomp">It\'s complicated</string>
+    <string name="sp_in">In a civil union</string>
+    <string name="sp_sep">Separated</string>
+    <string name="sp_marr">Married</string>
+    <string name="sp_indo">In a domestic partnership</string>
+    <string name="sp_wid">Widowed</string>
+    <string name="sp_div">Divorced</string>
+    <string name="sp_none">None</string>
+
+    <string name="profile_munu">Setting Account</string>
+    <string name="menu_log_out">Log out</string>
+    <string name="signup_sucess">Auth Success</string>
+    <string name="username_sixcharacteres"><![CDATA[Failed username should be > 6 characters]]></string>
+    <string name="help_isEmpty"> - All entries should be empty.</string>
+    <string name="help_auth"> - Failed Authentication : Your password or email incorrect try again.</string>
+    <string name="help_passwordShould"> - Failed Authentication : Password should be at least 6 characters.</string>
+    <string name="email_exist_help">email already exist</string>
+    <string name="you_gone_some_error">Please check your internet connection</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="sex">Sex :</string>
+    <string name="age">Age :</string>
+    <string name="interest">interest :</string>
+    <string name="chat_room">Chat Room</string>
+    <string name="messenger">Messenger</string>
+    <string name="select_gallery">Select Gallery</string>
+    <string name="image_upload">Image Upload.....</string>
+    <string name="error_in_uploding_image">error in uploading thumbnail</string>
+    <string name="success_upload_image">Success Uploading</string>
+    <string name="waiting">Waiting …</string>
+    <string name="send_message">Write a message</string>
+    <string name="messenger_soon">Messenger Soon</string>
+    <string name="email_account">Email :</string>
+    <string name="relationship">Relationship :</string>
+    <string name="none">None</string>
+    <string name="Cooking">Cooking</string>
+    <string name="Hiking">Hiking</string>
+    <string name="Painting">Painting</string>
+    <string name="dji">Sculpture</string>
+    <string name="egy">Writing</string>
+    <string name="irq">Running</string>
+    <string name="jord">Dancing</string>
+    <string name="kut">Yoga</string>
+    <string name="leb">Meditating</string>
+    <string name="lib">Reading</string>
+    <string name="maur">Video Games</string>
+    <string name="mar">Gardening</string>
+    <string name="omar">Knitting</string>
+    <string name="pals">Woodwork</string>
+    <string name="Poker">Poker</string>
+    <string name="saud">Acting</string>
+    <string name="sud">Amateur Radio</string>
+    <string name="syr">Bodybuilding</string>
+    <string name="sola">swimming</string>
+    <string name="tun">Daydreaming</string>
+    <string name="Traveling">Traveling</string>
+    <string name="yem">Other</string>
+
+    <string-array name="countries">
+
+        <item>Writing</item>
+        <item>Cooking</item>
+        <item>Amateur Radio</item>
+        <item>Running</item>
+        <item>Gardening</item>
+        <item>Acting Arabia</item>
+        <item>Other</item>
+        <item>Bodybuilding</item>
+        <item>swimming</item>
+        <item>Daydreaming</item>
+        <item>Traveling</item>
+        <item>Dancing</item>
+        <item>Reading</item>
+        <item>Woodwork</item>
+        <item>Meditating</item>
+        <item>Knitting</item>
+        <item>Yoga</item>
+        <item>Video Games</item>
+        <item>Poker</item>
+        <item>Hiking</item>
+        <item>Sculpture</item>
+        <item>Painting</item>
+
+    </string-array>
+
+    <string name="search_by_username">Search by username</string>
+    <string name="man">Man</string>
+    <string name="wKnitting">Knitting</string>
+    <string name="send_message_tiuser">Send Message</string>
+    <string name="chat_title">CHAT</string>
+    <string name="last_msg">See last message</string>
+    <string name="pay_to_remove_ads">Pay 4.99 $ to Remove Ads</string>
+
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="payment_unsuccessful">Payment unsuccessful</string>
+    <string name="payment_successful">Payment successful</string>
+    <string name="pay_toremoveads">Pay to remove ADS</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_image">Change Image</string>
+    <string name="_5_month">$ 5 / month</string>
+    <string name="_15_3_months">$ 15 / 3 months</string>
+    <string name="_60_year">$ 60 / year</string>
+    <string name="pay_for_1_month">Pay for 1 month</string>
+    <string name="pay_for_1_year">Pay for 1 year</string>
+    <string name="pay_for_3_month">Pay for 3 month</string>
+
+
+
+    <string name="laws">Inside rules: \n\n\n* No exchange of spam  links. \n* Be aware of your nonverbal and extra verbal cues. \n* No insulting or cursing in conversation. \n* When you disagree, explain why. \n* Engage others in ways that build their self-esteem. \n* Share your ideas proportionally. \n* Smile </string>
+    <string name="policy_accept">Read and accept application laws to sign up</string>
+    <string name="need_acceplt">You need to read and accept application laws to sign up</string>
+    <string name="laws_tv">Policy</string>
+    <string name="abuse_of_content">Abuse of content</string>
+    <string name="report_abuse_contnat">Report abuse of content</string>
+    <string name="report_abuse_description">Click (SEND) if :
+        \n\n* (s)he bother you.
+        \n* (s)he use pornoghraphy images.
+        \n* (s)he send you abusive messages</string>
+    <string name="send">Report</string>
+    <string name="deleteblock">Block and delete </string>
+    <string name="send_succes">Send Successfully</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="caly">Calling You</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="ws">Waiting Sign up…</string>
+    <string name="wsin">Waiting Sign in…</string>
+    <string name="gdd">Google sign in failed</string>
+    <string name="stg_yes">Yes</string>
+    <string name="are_you_sure_you_want_to_block_this_user">Are you sure you want to block this user.</string>
+    <string name="stg_no">No</string>
+    <string name="stg_cancel">Cancel</string>
+    <string name="block_user">Block User</string>
+    <string name="stg_clocked">This user blocked.</string>
+
+</resources>

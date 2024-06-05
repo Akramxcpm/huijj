@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="280.0dip"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="12.0dip"
+        app:cardElevation="5dp"
+        app:contentPaddingLeft="0.0dip" app:contentPaddingRight="0.0dip">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:textSize="22sp"
+                android:fontFamily="@font/varela_regular"
+
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="18.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/block_user"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp" />
+
+            <LinearLayout
+                style="@style/AppTheme.SingleHorizontalLineStyle" />
+            <TextView android:textSize="16sp"
+                android:textColor="@color/colorBlackPure"
+                android:gravity="center_horizontal"
+
+                android:fontFamily="@font/varela_regular"
+
+
+                android:padding="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/are_you_sure_you_want_to_block_this_user"
+                 />
+
+            <LinearLayout
+                style="@style/AppTheme.SingleHorizontalLineStyle" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+
+                <TextView android:textSize="16sp"
+                    android:textColor="@color/colorBlackPure"
+                    android:gravity="center"
+                    android:fontFamily="@font/varela_regular"
+                    android:id="@+id/tv_dialog_cancel"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0.0dip" android:layout_height="wrap_content"
+                    android:text="@string/stg_cancel"
+                    android:layout_weight="1.0"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    />
+
+                <LinearLayout
+                    style="@style/AppTheme.SingleVerticalLineStyle" />
+
+                <TextView android:textSize="16sp"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:id="@+id/tv_dialog_yes_confirm"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stg_yes"
+                    android:layout_weight="1.0"
+                    android:clickable="true"
+                    android:fontFamily="@font/varela_regular"
+
+                    android:focusable="true"
+                    android:background="?android:attr/selectableItemBackground"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
